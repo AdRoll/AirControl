@@ -8,8 +8,10 @@ Installation
 ------------
 
     ln -s $PWD/aircontrol ~/bin  # assuming ~/bin is on your PATH
-    brew install bash-completion
-    cp _aircontrol_completion /usr/local/etc/bash_completion.d/aircontrol
+
+If you want tab completion and have bash-completion installed, then install aircontrol completion:
+
+    ln -s $PWD/aircontrol-completion.bash /usr/local/etc/bash_completion.d/aircontrol-completion.bash
 
 
 Usage
@@ -27,5 +29,13 @@ Completion:
 
     aircontrol 2nd<TAB>
     # expands to
-    aircontrol "2nd Floor Lounge"
+    aircontrol 2nd\ Floor\ Lounge
     # assuming such a device is on your local network
+
+
+Future Work
+-----------
+
+* ZSH completion?
+* Alfred Workflow
+* Spotlight Plugin
