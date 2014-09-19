@@ -21,7 +21,12 @@ Mirror display to Apple TV named "2nd Floor Lounge":
 
     aircontrol "2nd Floor Lounge"
 
-Stop mirroring
+The first time you do this, you'll be prompted to grant accessibility access to
+"Terminal" (or iTerm, if that's your thing). Go into System Preferences ->
+Security & Privacy -> Privacy and check the box for "Terminal". You won't be
+prompte for this in the future.
+
+Stop mirroring:
 
     aircontrol -k
 
