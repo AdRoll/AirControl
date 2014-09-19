@@ -10,10 +10,8 @@ _aircontrol()
 
       room=$( echo $line | cut -d ' ' -f 7-100 )
 
-      unquoted_cur=$(echo $cur | tr -d '"')
-
-      if `echo "$room" | grep ^${unquoted_cur}.*$ > /dev/null`; then
-        COMPREPLY+=("\"$room\"")
+      if `echo "$room" | grep ^${cur}.*$ > /dev/null`; then
+        COMPREPLY+=("$(printf "%q" "$room")")
       fi
 
       # break if no more items will follow (e.g. Flags != 3)
@@ -23,4 +21,4 @@ _aircontrol()
   done < <(dns-sd -B _airplay._tcp)
 }
 
-complete -F _aircontrol aircontrol
+complete -o nospace -F _aircontrol aircontrol
