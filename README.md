@@ -42,6 +42,10 @@ In action
 ![aircontrol in
 action](https://raw.github.com/AdRoll/aircontrol/master/aircontrol.gif)
 
+Details
+-------
+For details on how we built it, please checkout this blog post: [http://tech.adroll.com/blog/terminal/2014/09/26/introducing-aircontrol-control-airplay-through-terminal.html](http://tech.adroll.com/blog/terminal/2014/09/26/introducing-aircontrol-control-airplay-through-terminal.html)
+
 Future Work
 -----------
 
