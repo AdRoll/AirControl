@@ -37,6 +37,10 @@ Completion:
     aircontrol 2nd\ Floor\ Lounge
     # assuming such a device is on your local network
 
+In action
+---------
+![aircontrol in
+action](https://raw.github.com/AdRoll/aircontrol/master/aircontrol.gif)
 
 Future Work
 -----------
