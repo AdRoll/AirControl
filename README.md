@@ -39,16 +39,8 @@ Completion:
 
 In action
 ---------
-![aircontrol in
-action](https://raw.github.com/AdRoll/aircontrol/master/aircontrol.gif)
+![aircontrol in action](./aircontrol.gif)
 
 Details
 -------
-For details on how we built it, please checkout this blog post: [http://tech.adroll.com/blog/terminal/2014/09/26/introducing-aircontrol-control-airplay-through-terminal.html](http://tech.adroll.com/blog/terminal/2014/09/26/introducing-aircontrol-control-airplay-through-terminal.html)
-
-Future Work
------------
-
-* ZSH completion?
-* Alfred Workflow
-* Spotlight Plugin
+For details on how we built it, please check out this blog post: [http://tech.adroll.com/blog/terminal/2014/09/26/introducing-aircontrol-control-airplay-through-terminal.html](http://tech.adroll.com/blog/terminal/2014/09/26/introducing-aircontrol-control-airplay-through-terminal.html)
