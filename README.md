@@ -44,3 +44,10 @@ In action
 Details
 -------
 For details on how we built it, please check out this blog post: [http://tech.adroll.com/blog/terminal/2014/09/26/introducing-aircontrol-control-airplay-through-terminal.html](http://tech.adroll.com/blog/terminal/2014/09/26/introducing-aircontrol-control-airplay-through-terminal.html)
+
+Contributors
+---
+
+- Timothée Boucher https://github.com/Timothee
+- Eric Allen https://github.com/epall
+- Kyle Engibous https://github.com/kengibous
