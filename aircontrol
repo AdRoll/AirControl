@@ -7,26 +7,26 @@ else
 fi
 
 read -d '' APPLESCRIPT <<EOF
-set _isElCapitanOrBetter to (system attribute "sysv") ≥ 4245
+set _isElCapitanOrBetter to (system attribute "sys1") ≥ 10 and (system attribute "sys2") ≥ 11
 if _isElCapitanOrBetter then
-	tell application "System Events"
-		tell process "SystemUIServer"
-				tell (menu bar item 1 of menu bar 1 whose description contains "Displays Menu")
-					select
-					delay 0.1
-					key code 125 using command down
-					delay 0.1
-					click menu item $tvname of menu 1
-				end tell
-		end tell
-	end tell
+    tell application "System Events"
+        tell process "SystemUIServer"
+            tell (menu bar item 1 of menu bar 1 whose description contains "Displays Menu")
+                select
+                    delay 0.1
+                    key code 125 using command down
+                    delay 0.1
+                    click menu item $tvname of menu 1
+            end tell
+        end tell
+    end tell
 else
-	tell application "System Events"
-    tell process "SystemUIServer"
+    tell application "System Events"
+        tell process "SystemUIServer"
             click (menu bar item 1 of menu bar 1 whose description contains "Displays")
             click menu item $tvname of menu 1 of result
+        end tell
     end tell
-end tell
 end if
 EOF
 
